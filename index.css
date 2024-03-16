@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit&family=Poppins:ital,wght@1,500&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #000000;
+    
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #1B2226;
+    gap: 8px;
+    position: fixed;
+    justify-content: space-around;
+}
+
+.menu .menu-conteiner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    height: 3.25rem;
+    gap: 8px;
+}
+
+.menu .menu-conteiner .texto {
+    display: flex;
+    gap: 8px;
+    width: 16%;
+    height: 2.125rem;
+    border-radius: 0.5rem;
+    background-color:#38434F; 
+    padding: 16px 24px;
+
+}
+
+.menu .menu-conteiner .texto a {
+    display: flex;
+    gap: 8px;
+    color: white;
+    align-items: center;
+    font-size:  14px;
+}
+
+/* ------NAV-BAR--------------*/
+
+.menu .menu-conteiner .nav-bar {
+    display: flex;
+    margin-left: 92px;
+}
+
+.menu .menu-conteiner .nav-bar .nav-primeira {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 28px;
+}
+
+.menu .menu-conteiner .nav-bar .nav-primeira li {
+    display: flex;
+    align-items: center;
+}
+
+.menu .menu-conteiner .nav-bar .nav-primeira li a {
+    color: white;
+    display: grid;
+    justify-items: center;
+    font-size: 14px;
+}
+
+.menu .menu-conteiner .nav-bar .nav-primeira .solucao {
+     margin-left: 35px;
+     border-left: 1px solid white;
+}
+
+.menu .menu-conteiner .nav-bar .nav-primeira .solucao a  {
+    margin-left: 30px;
+}
+
+/*------section-----perfil--------*/
+
+
+.perfil {
+    width: 45%;
+    height: 468px;
+    background-color: #1B2226;
+    position: absolute;
+    margin-top: 80px;
+    margin: 80px 0 0 130px;
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.perfil img {
+    width: 100%;
+    Height: 230px;
+}
+
+.perfil .foto {
+    width: 21%;
+    height:160px ;
+    margin-top: -120px;
+    margin-left: 10px;
+
+}
+
+
+
+
+
